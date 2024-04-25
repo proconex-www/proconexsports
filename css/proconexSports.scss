@@ -1,0 +1,243 @@
+// Proconex Sports Pvt. Ltd. Scss Document
+//active colors 
+@mixin hover{  
+	&:hover, &:focus{ 
+		color: #000000;
+		background-color: #333333;
+	}
+	&:active{
+		color: #ffffff;
+		background-color: #000000;
+	}
+}
+@mixin linkhover{
+	&:hover, &:focus{ 
+		color: #333333;
+	}
+	&:active{
+		color: #000; 
+	}
+}
+@mixin linkhoverbg{
+	&:hover, &:focus{ 
+		color: #000000; 
+		background-color: #3BAFB5;
+	}
+	&:active{
+		color: #2B2B2B;
+		background-color: #32969B;
+	}
+}
+@mixin absolute{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+@mixin BGcenter{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+@mixin textshadow1($shadowcolor){
+    text-shadow: calc(1em/40) calc(1em/40) calc(5em/40) $shadowcolor,calc(1em/40) calc(1em/40) calc(5em/40) $shadowcolor,calc(2em/40) calc(2em/40) calc(5em/40) $shadowcolor,calc(2em/40) calc(2em/40) calc(5em/40) $shadowcolor,calc(2em/40) calc(2em/40) calc(5em/40) $shadowcolor;
+}
+@mixin boxshadow1{
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+//fonts
+@font-face {
+    font-family: "ITC Avant Garde Std";
+    src: url("../webfonts/ITCAvantGardeStd-DemiObl.woff2") format("woff2"),
+        url("../webfonts/ITCAvantGardeStd-DemiObl.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "ITC Avant Garde Std";
+    src: url("../webfonts/ITCAvantGardeStd-BoldObl.woff2") format("woff2"),
+        url("../webfonts/ITCAvantGardeStd-BoldObl.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "ITC Avant Garde Std";
+    src: url("../webfonts/ITCAvantGardeStd-Bold.woff2") format("woff2"),
+        url("../webfonts/ITCAvantGardeStd-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "ITC Avant Garde Std";
+    src: url("../webfonts/ITCAvantGardeStd-Demi.woff2") format("woff2"),
+        url("../webfonts/ITCAvantGardeStd-Demi.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "ITC Avant Garde Std";
+    src: url("../webfonts/ITCAvantGardeStd-Md.woff2") format("woff2"),
+        url("../webfonts/ITCAvantGardeStd-Md.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "ITC Avant Garde Std";
+    src: url("../webfonts/ITCAvantGardeStd-MdObl.woff2") format("woff2"),
+        url("../webfonts/ITCAvantGardeStd-MdObl.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "ITC Avant Garde Std";
+    src: url("../webfonts/ITCAvantGardeStd-BkObl.woff2") format("woff2"),
+        url("../webfonts/ITCAvantGardeStd-BkObl.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "ITC Avant Garde Std";
+    src: url("../webfonts/ITCAvantGardeStd-Bk.woff2") format("woff2"),
+        url("../webfonts/ITCAvantGardeStd-Bk.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "Britannic";
+    src: url("../webfonts/BritannicBold.woff2") format("woff2"),
+        url("../webfonts/BritannicBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "Jersey 25";
+    src: url("../webfonts/Jersey25-Regular.woff2") format("woff2"),
+        url("../webfonts/Jersey25-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+//body
+#proconexSports{
+    font-family: "ITC Avant Garde Std";
+    font-size: 10px;
+    font-weight: normal;
+	overflow-wrap: break-word;
+//    opacity: 0;
+//    user-select: none;
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    @media (min-width: 1367px){
+        font-size: calc(100vw/13670 * 100);
+        .container{
+            max-width: 95%;
+        }
+        section{
+            .container{
+                max-width: 84.507%;
+            }
+        }
+    }
+    #proconexwrap{
+        display: block;
+        width: 100%; 
+        min-height: 100vh;
+        overflow: hidden;
+        position: relative;
+        z-index: 0;
+    }
+    header{
+        nav{
+            
+        }
+    }
+    .navbar{
+        background-color: #f2f2f2;
+        .navbar-brand{
+            img{
+                max-width: calc(290em/20);
+                @media (min-width: 1367px){
+                    max-width: 21.23vw;
+                }
+            }
+        }
+        .navbar-nav{
+            flex-wrap: wrap;
+            .nav-link{
+                font-size: 150%;
+                color: #21505e;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            .dropdown-menu{
+                padding: 0;
+                margin: 0; 
+                background: none;
+                border: none;
+                border-radius: 0;
+                .dropdown-item{
+                    color: #3bafb5;
+                    font-weight: 500;
+                    background-color: #000000;
+                    @include linkhoverbg;
+                    &:first-child{
+                        border-radius: 10px 10px 0 0;
+                    }
+                    &:last-child{
+                        border-radius: 0 0 10px 10px;
+                    }
+                }
+            }
+        }
+        .proconexsportsicons{
+            column-gap: 1em;
+            img{
+                max-width: calc(144em/10);
+                @media (min-width: 1367px){
+                    max-width: 10.542vw;
+                }
+            }
+        }
+    }
+    main{
+        
+    }
+    section{
+        min-height: 25vh; 
+    }
+    footer{
+        color: #ffffff;
+        background-color: #560209;
+        .copyrights{
+            font-size: 120%;
+            padding: 13px;
+            text-align: right;
+            p{
+                line-height: normal;
+                margin: 0;
+            }
+        }
+    }
+}
