@@ -2,12 +2,12 @@
 //active colors 
 @mixin hover{  
 	&:hover, &:focus{ 
-		color: #000000;
+		color: #00140e;
 		background-color: #333333;
 	}
 	&:active{
 		color: #ffffff;
-		background-color: #000000;
+		background-color: #00140e;
 	}
 }
 @mixin linkhover{
@@ -20,11 +20,11 @@
 }
 @mixin linkhoverbg{
 	&:hover, &:focus{ 
-		color: #000000; 
+		color: #00140e; 
 		background-color: #3BAFB5;
 	}
 	&:active{
-		color: #2B2B2B;
+		color: #004731;
 		background-color: #32969B;
 	}
 }
@@ -185,6 +185,8 @@
         }
         .navbar-nav{
             flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-around;
             .nav-link{
                 font-size: 150%;
                 color: #21505e;
@@ -197,10 +199,10 @@
                 background: none;
                 border: none;
                 border-radius: 0;
-                .dropdown-item{
+                .dropdown-item{ 
                     color: #3bafb5;
                     font-weight: 500;
-                    background-color: #000000;
+                    background-color: #00140e;
                     @include linkhoverbg;
                     &:first-child{
                         border-radius: 10px 10px 0 0;
@@ -213,6 +215,7 @@
         }
         .proconexsportsicons{
             column-gap: 1em;
+            padding: 0.5em;
             img{
                 max-width: calc(144em/10);
                 @media (min-width: 1367px){
