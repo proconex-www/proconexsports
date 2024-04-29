@@ -201,8 +201,9 @@
                 border-radius: 0;
                 .dropdown-item{ 
                     color: #3bafb5;
-                    font-weight: 500;
+                    font-weight: 600;
                     background-color: #00140e;
+                    padding: calc(7.5em/16) calc(15em/16);
                     @include linkhoverbg;
                     &:first-child{
                         border-radius: 10px 10px 0 0;
@@ -228,7 +229,118 @@
         
     }
     section{
-        min-height: 25vh; 
+        min-height: 25vh;
+        #proconSports_carousel.carousel{
+            background-color: #333333;
+            position: relative;
+            user-select: none;
+            &:before{ 
+                content: "";
+                background-color: #333333;
+                opacity: 0.5;
+                position: absolute; 
+                left: 0px;
+                top: 0px;
+                right: 0px;
+                bottom: 0px;
+                z-index: 3;
+            }
+            .carousel-inner{
+                @include absolute;
+                z-index: 2;
+                .carousel-item{
+                    height: 100%;
+                    @include BGcenter;
+                }
+            }
+            .cover1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                z-index: 4;
+                min-height: calc(100vh - calc(97.81em/10));
+                .cover_1{
+                    padding: calc(50em/10) calc(25em/10);
+                    .cover_text{
+                        padding: 1em;
+                    }
+                    h1, h2, h3, p, li{
+                        color: #ffffff;
+                    }
+                    h1, h2, h3{
+                        text-shadow: calc(1em/40) calc(1em/40) calc(5em/40) #403f7c, calc(1em/40) calc(1em/40) calc(5em/40) #403f7c, calc(2em/40) calc(2em/40) calc(5em/40) #403f7c, calc(2em/40) calc(2em/40) calc(5em/40) #403f7c, calc(2em/40) calc(2em/40) calc(5em/40) #403f7c;
+                        margin-bottom: calc(8em/20);
+                    }
+                    h1{
+                        font-size: 360%;  
+                    }
+                    h2{
+                        font-size: 260%;  
+                    }
+                    p{
+                        font-size: 160%;
+                        text-shadow: calc(1em/20) calc(1em/20) calc(5em/20) #403f7c, calc(1em/20) calc(1em/20) calc(5em/20) #403f7c, calc(2em/20) calc(2em/20) calc(5em/20) #403f7c, calc(2em/20) calc(2em/20) calc(5em/20) #403f7c, calc(2em/20) calc(2em/20) calc(5em/20) #403f7c;
+                        letter-spacing: calc(0.5em/20);
+                        margin-bottom: calc(16em/20);
+                        .btn{
+                            background-color: #035AA6;
+                            padding: calc(8em/20) calc(16em/20);
+                            border-radius: calc(4.8em/20);
+                            border: none;
+                            box-shadow: none;
+                            margin: calc(6em/20);
+                            @include hover; 
+                            &.btn-lg{
+                                font-size: 100%; 
+                            }
+                        }
+                        &.lead:last-child {
+                            margin-bottom: 0px;
+                        }
+                    }
+                    ul{
+                        font-size: 160%;
+                        text-shadow: calc(1em/20) calc(1em/20) calc(5em/20) #403f7c, calc(1em/20) calc(1em/20) calc(5em/20) #403f7c, calc(2em/20) calc(2em/20) calc(5em/20) #403f7c, calc(2em/20) calc(2em/20) calc(5em/20) #403f7c, calc(2em/20) calc(2em/20) calc(5em/20) #403f7c;
+                        letter-spacing: calc(0.5em/20);
+                        margin-bottom: calc(16em/20);
+                        li, ul{
+                            font-size: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        &.theme2{
+            color: #ffffff;
+            background-color: #C31031;
+            padding: 6em 0;
+        }
+        &.theme3{
+            color: #ffffff;
+            background-color: #A90311
+        }
+        .section_1{
+            padding: 1em;
+            h2{
+                font-size: 240%;
+                font-weight: normal;
+            }
+            p{
+                font-size: 140%;
+                font-weight: normal;
+            }
+        }
+        .section_im{
+            padding: 0;
+            margin: 0;
+            img{
+                display: block;
+                padding: 0;
+                margin: 0;
+                border: none;
+            }
+        }
     }
     footer{
         color: #ffffff;
