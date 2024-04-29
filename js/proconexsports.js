@@ -4,3 +4,7 @@ function preloadphotos(photos) {
     $("<img>")[0].src = this;
   });
 }
+
+$(function(){
+    $("body").addClass("fadein");
+});

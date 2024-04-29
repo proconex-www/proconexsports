@@ -15,8 +15,8 @@
 <script src="js/jquery-3.4.1.min.js"></script>
 <div id="proconexwrap">
   <header>
-    <nav class="navbar navbar-expand-lg"> <a class="navbar-brand" href="#"><img src="images/proconexsports.png" width="512" height="192" alt="Proconex Sports Pvt. Ltd."></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+    <nav class="navbar navbar-expand-lg"> <div class="d-flex align-items-center justify-content-between"><a class="navbar-brand" href="#"><img src="images/proconexsports.png" width="512" height="192" alt="Proconex Sports Pvt. Ltd."></a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button></div>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
@@ -27,12 +27,12 @@
           <li class="nav-item"> <a class="nav-link" href="#">Events</a> </li>
           <li class="nav-item"> <a class="nav-link" href="#">Contact</a> </li>
         </ul>
+        <div class="proconexsportsicons d-flex align-items-center justify-content-center"> <img src="images/proconextaekwondoacademy.png" width="512" height="268" alt="Proconex Taekwondo Academy"> <img src="images/worldtaekwondo-WT.png" width="512" height="227" alt="World Taekwondo"> <img src="images/Internationaltaekwon-dofederation.png" width="512" height="344" alt="International Taekwon-do Federation"> </div>
       </div>
-      <div class="proconexsportsicons d-flex align-items-center justify-content-center"> <img src="images/proconextaekwondoacademy.png" width="512" height="268" alt="Proconex Taekwondo Academy"> <img src="images/worldtaekwondo-WT.png" width="512" height="227" alt="World Taekwondo"> <img src="images/Internationaltaekwon-dofederation.png" width="512" height="344" alt="International Taekwon-do Federation"> </div>
     </nav>
   </header>
   <main>
-    <section style="background-color: #C31031">
+    <section>
       <div class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="false" id="proconSports_carousel">
         <div class="cover1 text-left">
           <div class="cover_1">
@@ -86,8 +86,8 @@
       </div>
       <script>
 		$(function(){
-			$photos = ['images/carousel/kick1.png', 'images/carousel/kick2.jpg', 'images/carousel/kick3.jpg', 'images/carousel/kick4.jpg', 'images/carousel/kick5.jpg', 'images/carousel/kick6.jpg'];
-			preloadphotos($photos);
+//			$photos = ['images/carousel/kick1.png', 'images/carousel/kick2.jpg', 'images/carousel/kick3.jpg', 'images/carousel/kick4.jpg', 'images/carousel/kick5.jpg', 'images/carousel/kick6.jpg'];
+//			preloadphotos($photos);
 		});
 	</script> 
     </section>
@@ -109,8 +109,7 @@
         </div>
       </div>
     </section>
-    <section class="theme3 pt-0">
-      <div class="section_im"> <img src="images/pta/taekwondo.png" width="2460" height="778" alt="Taekwondo Techniques"> </div>
+    <section class="theme3" style="background-image: url('images/pta/taekwondo.png')">
       <div class="container">
         <div class="row">
           <div class="col-12">
