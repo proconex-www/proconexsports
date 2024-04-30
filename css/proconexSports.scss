@@ -636,6 +636,7 @@
             content: "";
             background-image: url('../images/pattern.png');
             background-repeat: repeat;
+            background-attachment: fixed;
             opacity: 0.1;
             @include absolute;
             z-index: 0;
