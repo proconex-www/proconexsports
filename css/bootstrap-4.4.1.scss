@@ -1,4 +1,4 @@
-//Bootstrap v4.4.1 (https://getbootstrap.com/) modified by Shani
+//Bootstrap v4.4.1 (https://getbootstrap.com/) modified by Shani for Proconex sports
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -553,7 +553,8 @@ pre code {
 
 @media (min-width: 576px) {
   .container, .container-sm {
-    max-width: 540px;
+    max-width: 100%;
+      padding: 0 2.5em;
   }
 }
 
