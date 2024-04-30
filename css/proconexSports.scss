@@ -487,6 +487,36 @@
                 }
             }
         }
+        &.themewhite{
+            color: #333333;
+            background-color: #f7f7f7;
+            padding: $padding;
+            .section_1{
+                h2, h3{
+                    margin: 0;
+                    + p{
+                        margin-top: 1em;
+                    }
+                }
+                p{
+                    margin: 0;
+                    + p{
+                        margin-top: 1em;
+                    }
+                }
+                a{
+                    color: #333333;
+                    text-decoration: none;
+                    &:hover, &:focus{
+                        color: #a41327; 
+                        text-decoration: underline;
+                    }
+                    &:active{
+                        color: #840F1F; 
+                    }
+                }
+            }
+        }
         .section_1{
             padding: 1em;
             [class*="section_h"]{
