@@ -231,6 +231,26 @@
                     font-size: 1.0981vw;
                 }
             }
+            .dropdown{
+                .nav-link{
+                    &.dropdown-toggle::after{
+                        font-family: "proconex-icons";
+                        content: "\e90f";
+                        border: none;
+                        margin: 0 0.125em;
+                        padding: 0;
+                        position: absolute;
+                        transform: rotate(45deg);
+                    }
+                }
+                &.show{
+                    .nav-link{
+                        &.dropdown-toggle::after{
+                            transform: rotate(0deg);
+                        }
+                    }
+                }
+            }
             .dropdown-menu{
                 font-size: 150%;
                 padding: 0;
