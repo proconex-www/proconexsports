@@ -150,6 +150,9 @@
     font-style: normal;
     font-display: fallback;
 }
+//import font-icons
+@import url("icons.css"); 
+
 //body
 #proconexSports{
     font-family: "ITC Avant Garde Std";
@@ -329,6 +332,26 @@
                     padding: calc(50em/10) calc(25em/10);
                     .cover_text{
                         padding: 1em;
+                        ul{
+                            padding: 0;
+                            margin: 0 0 0 calc(15em/17.7648);
+                            li{
+                                display: block;
+                                padding: 0 0 0 calc(25em/17.7648);
+                                margin: 0;
+                                position: relative;
+                                list-style: none;
+                                &:before{
+                                    font-family: "proconex-icons";
+                                    color: #f8c713; 
+                                    content: "\e904";
+                                    display: inline-block;
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                }
+                            }
+                        }
                     }
                     h1, h2, h3, p, li{
                         color: #ffffff;
@@ -666,6 +689,14 @@
             font-weight: 300;
             padding: 0;
             margin: 0;
+            &.d-flex{
+                column-gap: 1em;
+                .icon{
+                    font-size: 120%;
+                    display: inline-block;
+                    margin: 0.25em 0;
+                }
+            }
             ul, li{
                 font-size: 100%;
             }

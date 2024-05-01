@@ -1,0 +1,1187 @@
+@import "variables"; 
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff2') format('woff2'), url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+} 
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.proconex-arrows {
+  &:before {
+    content: $proconex-arrows;     
+    color: #f8c713;
+  }
+}
+.proconex-Internationaltaekwon-dofederation .path1 {
+  &:before {
+    content: $proconex-Internationaltaekwon-dofederation-path1;  
+    color: rgb(35, 31, 32);
+  }
+}
+.proconex-Internationaltaekwon-dofederation .path2 {
+  &:before {
+    content: $proconex-Internationaltaekwon-dofederation-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.proconex-Internationaltaekwon-dofederation .path3 {
+  &:before {
+    content: $proconex-Internationaltaekwon-dofederation-path3;  
+    margin-left: -1em;  
+    color: rgb(35, 31, 32);
+  }
+}
+.proconex-Internationaltaekwon-dofederation .path4 {
+  &:before {
+    content: $proconex-Internationaltaekwon-dofederation-path4;  
+    margin-left: -1em;  
+    color: rgb(60, 117, 186);
+  }
+}
+.proconex-Internationaltaekwon-dofederation .path5 {
+  &:before {
+    content: $proconex-Internationaltaekwon-dofederation-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.proconex-Internationaltaekwon-dofederation .path6 {
+  &:before {
+    content: $proconex-Internationaltaekwon-dofederation-path6;  
+    margin-left: -1em;  
+    color: rgb(248, 199, 19);
+  }
+}
+.proconex-Internationaltaekwon-dofederation .path7 {
+  &:before {
+    content: $proconex-Internationaltaekwon-dofederation-path7;  
+    margin-left: -1em;  
+    color: rgb(248, 199, 19);
+  }
+}
+.proconex-Internationaltaekwon-dofederation .path8 {
+  &:before {
+    content: $proconex-Internationaltaekwon-dofederation-path8;  
+    margin-left: -1em;  
+    color: rgb(248, 199, 19);
+  }
+}
+.proconex-Internationaltaekwon-dofederation .path9 {
+  &:before {
+    content: $proconex-Internationaltaekwon-dofederation-path9;  
+    margin-left: -1em;  
+    color: rgb(248, 199, 19);
+  }
+}
+.proconex-Internationaltaekwon-dofederation .path10 {
+  &:before {
+    content: $proconex-Internationaltaekwon-dofederation-path10;  
+    margin-left: -1em;  
+    color: rgb(248, 199, 19);
+  }
+}
+.proconex-Internationaltaekwon-dofederation .path11 {
+  &:before {
+    content: $proconex-Internationaltaekwon-dofederation-path11;  
+    margin-left: -1em;  
+    color: rgb(248, 199, 19);
+  }
+}
+.proconex-Internationaltaekwon-dofederation .path12 {
+  &:before {
+    content: $proconex-Internationaltaekwon-dofederation-path12;  
+    margin-left: -1em;  
+    color: rgb(248, 199, 19);
+  }
+}
+.proconex-Internationaltaekwon-dofederation .path13 {
+  &:before {
+    content: $proconex-Internationaltaekwon-dofederation-path13;  
+    margin-left: -1em;  
+    color: rgb(248, 199, 19);
+  }
+}
+.proconex-Internationaltaekwon-dofederation .path14 {
+  &:before {
+    content: $proconex-Internationaltaekwon-dofederation-path14;  
+    margin-left: -1em;  
+    color: rgb(248, 199, 19);
+  }
+}
+.proconex-Internationaltaekwon-dofederation .path15 {
+  &:before {
+    content: $proconex-Internationaltaekwon-dofederation-path15;  
+    margin-left: -1em;  
+    color: rgb(248, 199, 19);
+  }
+}
+.proconex-Internationaltaekwon-dofederation .path16 {
+  &:before {
+    content: $proconex-Internationaltaekwon-dofederation-path16;  
+    margin-left: -1em;  
+    color: rgb(248, 199, 19);
+  }
+}
+.proconex-Internationaltaekwon-dofederation .path17 {
+  &:before {
+    content: $proconex-Internationaltaekwon-dofederation-path17;  
+    margin-left: -1em;  
+    color: rgb(248, 199, 19);
+  }
+}
+.proconex-Internationaltaekwon-dofederation .path18 {
+  &:before {
+    content: $proconex-Internationaltaekwon-dofederation-path18;  
+    margin-left: -1em;  
+    color: rgb(248, 199, 19);
+  }
+}
+.proconex-Internationaltaekwon-dofederation .path19 {
+  &:before {
+    content: $proconex-Internationaltaekwon-dofederation-path19;  
+    margin-left: -1em;  
+    color: rgb(35, 31, 32);
+  }
+}
+.proconex-Internationaltaekwon-dofederation .path20 {
+  &:before {
+    content: $proconex-Internationaltaekwon-dofederation-path20;  
+    margin-left: -1em;  
+    color: rgb(35, 31, 32);
+  }
+}
+.proconex-kick1 {
+  &:before {
+    content: $proconex-kick1; 
+  }
+}
+.proconex-kick2 {
+  &:before {
+    content: $proconex-kick2; 
+  }
+}
+.proconex-kick3 {
+  &:before {
+    content: $proconex-kick3; 
+  }
+}
+.proconex-kick4 {
+  &:before {
+    content: $proconex-kick4; 
+  }
+}
+.proconex-kick5 {
+  &:before {
+    content: $proconex-kick5; 
+  }
+}
+.proconex-kick6 {
+  &:before {
+    content: $proconex-kick6; 
+  }
+}
+.proconex-navbutton .path1 {
+  &:before {
+    content: $proconex-navbutton-path1;  
+    color: rgb(68, 73, 148);
+  }
+}
+.proconex-navbutton .path2 {
+  &:before {
+    content: $proconex-navbutton-path2;  
+    margin-left: -1em;  
+    color: rgb(68, 73, 148);
+  }
+}
+.proconex-navbutton .path3 {
+  &:before {
+    content: $proconex-navbutton-path3;  
+    margin-left: -1em;  
+    color: rgb(68, 188, 195);
+  }
+}
+.proconex-pattern .path1 {
+  &:before {
+    content: $proconex-pattern-path1;  
+    color: rgb(68, 188, 195);
+  }
+}
+.proconex-pattern .path2 {
+  &:before {
+    content: $proconex-pattern-path2;  
+    margin-left: -0.8779296875em;  
+    color: rgb(68, 73, 148);
+  }
+}
+.proconex-pattern .path3 {
+  &:before {
+    content: $proconex-pattern-path3;  
+    margin-left: -0.8779296875em;  
+    color: rgb(68, 188, 195);
+  }
+}
+.proconex-pattern .path4 {
+  &:before {
+    content: $proconex-pattern-path4;  
+    margin-left: -0.8779296875em;  
+    color: rgb(68, 73, 148);
+  }
+}
+.proconex-pattern .path5 {
+  &:before {
+    content: $proconex-pattern-path5;  
+    margin-left: -0.8779296875em;  
+    color: rgb(68, 188, 195);
+  }
+}
+.proconex-pattern .path6 {
+  &:before {
+    content: $proconex-pattern-path6;  
+    margin-left: -0.8779296875em;  
+    color: rgb(68, 73, 148);
+  }
+}
+.proconex-pattern .path7 {
+  &:before {
+    content: $proconex-pattern-path7;  
+    margin-left: -0.8779296875em;  
+    color: rgb(68, 188, 195);
+  }
+}
+.proconex-pattern .path8 {
+  &:before {
+    content: $proconex-pattern-path8;  
+    margin-left: -0.8779296875em;  
+    color: rgb(68, 73, 148);
+  }
+}
+.proconex-proconexsportsicon .path1 {
+  &:before {
+    content: $proconex-proconexsportsicon-path1;  
+    color: rgb(68, 188, 195);
+  }
+}
+.proconex-proconexsportsicon .path2 {
+  &:before {
+    content: $proconex-proconexsportsicon-path2;  
+    margin-left: -1em;  
+    color: rgb(68, 73, 148);
+  }
+}
+.proconex-proconextaekwondoacademy .path1 {
+  &:before {
+    content: $proconex-proconextaekwondoacademy-path1;  
+    color: rgb(0, 0, 0);
+  }
+}
+.proconex-proconextaekwondoacademy .path2 {
+  &:before {
+    content: $proconex-proconextaekwondoacademy-path2;  
+    margin-left: -1em;  
+    color: rgb(68, 188, 195);
+  }
+}
+.proconex-proconextaekwondoacademy .path3 {
+  &:before {
+    content: $proconex-proconextaekwondoacademy-path3;  
+    margin-left: -1em;  
+    color: rgb(68, 73, 148);
+  }
+}
+.proconex-proconextaekwondoacademy .path4 {
+  &:before {
+    content: $proconex-proconextaekwondoacademy-path4;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.proconex-proconextaekwondoacademy .path5 {
+  &:before {
+    content: $proconex-proconextaekwondoacademy-path5;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.proconex-proconextaekwondoacademy .path6 {
+  &:before {
+    content: $proconex-proconextaekwondoacademy-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.proconex-proconextaekwondoacademy .path7 {
+  &:before {
+    content: $proconex-proconextaekwondoacademy-path7;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.proconex-proconextaekwondoacademy .path8 {
+  &:before {
+    content: $proconex-proconextaekwondoacademy-path8;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.proconex-proconextaekwondoacademy .path9 {
+  &:before {
+    content: $proconex-proconextaekwondoacademy-path9;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.proconex-proconextaekwondoacademy .path10 {
+  &:before {
+    content: $proconex-proconextaekwondoacademy-path10;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.proconex-proconextaekwondoacademy .path11 {
+  &:before {
+    content: $proconex-proconextaekwondoacademy-path11;  
+    margin-left: -1em;  
+    color: rgb(0, 107, 73);
+  }
+}
+.proconex-proconextaekwondoacademy .path12 {
+  &:before {
+    content: $proconex-proconextaekwondoacademy-path12;  
+    margin-left: -1em;  
+    color: rgb(0, 107, 73);
+  }
+}
+.proconex-proconextaekwondoacademy .path13 {
+  &:before {
+    content: $proconex-proconextaekwondoacademy-path13;  
+    margin-left: -1em;  
+    color: rgb(68, 73, 148);
+  }
+}
+.proconex-proconextaekwondoacademy .path14 {
+  &:before {
+    content: $proconex-proconextaekwondoacademy-path14;  
+    margin-left: -1em;  
+    color: rgb(68, 73, 148);
+  }
+}
+.proconex-proconextaekwondoacademy .path15 {
+  &:before {
+    content: $proconex-proconextaekwondoacademy-path15;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.proconex-proconextaekwondoacademyicon .path1 {
+  &:before {
+    content: $proconex-proconextaekwondoacademyicon-path1;  
+    color: rgb(0, 0, 0);
+  }
+}
+.proconex-proconextaekwondoacademyicon .path2 {
+  &:before {
+    content: $proconex-proconextaekwondoacademyicon-path2;  
+    margin-left: -1em;  
+    color: rgb(68, 188, 195);
+  }
+}
+.proconex-proconextaekwondoacademyicon .path3 {
+  &:before {
+    content: $proconex-proconextaekwondoacademyicon-path3;  
+    margin-left: -1em;  
+    color: rgb(68, 73, 148);
+  }
+}
+.proconex-worldtaekwondo .path1 {
+  &:before {
+    content: $proconex-worldtaekwondo-path1;  
+    color: rgb(90, 90, 93);
+  }
+}
+.proconex-worldtaekwondo .path2 {
+  &:before {
+    content: $proconex-worldtaekwondo-path2;  
+    margin-left: -1em;  
+    color: rgb(41, 164, 87);
+  }
+}
+.proconex-worldtaekwondo .path3 {
+  &:before {
+    content: $proconex-worldtaekwondo-path3;  
+    margin-left: -1em;  
+    color: rgb(33, 64, 154);
+  }
+}
+.proconex-worldtaekwondo .path4 {
+  &:before {
+    content: $proconex-worldtaekwondo-path4;  
+    margin-left: -1em;  
+    color: rgb(218, 33, 40);
+  }
+}
+.proconex-worldtaekwondo .path5 {
+  &:before {
+    content: $proconex-worldtaekwondo-path5;  
+    margin-left: -1em;  
+    color: rgb(252, 177, 52);
+  }
+}
+.proconex-worldtaekwondo .path6 {
+  &:before {
+    content: $proconex-worldtaekwondo-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.proconex-worldtaekwondo-WT .path1 {
+  &:before {
+    content: $proconex-worldtaekwondo-WT-path1;  
+    color: rgb(90, 90, 93);
+  }
+}
+.proconex-worldtaekwondo-WT .path2 {
+  &:before {
+    content: $proconex-worldtaekwondo-WT-path2;  
+    margin-left: -1em;  
+    color: rgb(41, 164, 87);
+  }
+}
+.proconex-worldtaekwondo-WT .path3 {
+  &:before {
+    content: $proconex-worldtaekwondo-WT-path3;  
+    margin-left: -1em;  
+    color: rgb(33, 64, 154);
+  }
+}
+.proconex-worldtaekwondo-WT .path4 {
+  &:before {
+    content: $proconex-worldtaekwondo-WT-path4;  
+    margin-left: -1em;  
+    color: rgb(218, 33, 40);
+  }
+}
+.proconex-worldtaekwondo-WT .path5 {
+  &:before {
+    content: $proconex-worldtaekwondo-WT-path5;  
+    margin-left: -1em;  
+    color: rgb(252, 177, 52);
+  }
+}
+.proconex-worldtaekwondo-WT .path6 {
+  &:before {
+    content: $proconex-worldtaekwondo-WT-path6;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.proconex-worldtaekwondo-WT .path7 {
+  &:before {
+    content: $proconex-worldtaekwondo-WT-path7;  
+    margin-left: -1em;  
+    color: rgb(90, 90, 93);
+  }
+}
+.proconex-towards {
+  &:before {
+    content: $proconex-towards; 
+  }
+}
+.proconex-x-tw {
+  &:before {
+    content: $proconex-x-tw; 
+  }
+}
+.proconex-form-spin {
+  &:before {
+    content: $proconex-form-spin; 
+  }
+}
+.proconex-messenger {
+  &:before {
+    content: $proconex-messenger;     
+    color: #00b2ff;
+  }
+}
+.proconex-microsoftexcel {
+  &:before {
+    content: $proconex-microsoftexcel;     
+    color: #217346;
+  }
+}
+.proconex-microsoftpowerpoint {
+  &:before {
+    content: $proconex-microsoftpowerpoint;     
+    color: #d24726;
+  }
+}
+.proconex-microsoftword {
+  &:before {
+    content: $proconex-microsoftword;     
+    color: #2b579a;
+  }
+}
+.proconex-whatsapp1 {
+  &:before {
+    content: $proconex-whatsapp1;     
+    color: #25d366;
+  }
+}
+.proconex-add {
+  &:before {
+    content: $proconex-add; 
+  }
+}
+.proconex-remove {
+  &:before {
+    content: $proconex-remove; 
+  }
+}
+.proconex-keyboard-arrow-down {
+  &:before {
+    content: $proconex-keyboard-arrow-down; 
+  }
+}
+.proconex-keyboard-arrow-left {
+  &:before {
+    content: $proconex-keyboard-arrow-left; 
+  }
+}
+.proconex-keyboard-arrow-right {
+  &:before {
+    content: $proconex-keyboard-arrow-right; 
+  }
+}
+.proconex-keyboard-arrow-up {
+  &:before {
+    content: $proconex-keyboard-arrow-up; 
+  }
+}
+.proconex-cancel {
+  &:before {
+    content: $proconex-cancel; 
+  }
+}
+.proconex-check {
+  &:before {
+    content: $proconex-check; 
+  }
+}
+.proconex-notifications {
+  &:before {
+    content: $proconex-notifications; 
+  }
+}
+.proconex-notifications_none {
+  &:before {
+    content: $proconex-notifications_none; 
+  }
+}
+.proconex-newspaper {
+  &:before {
+    content: $proconex-newspaper; 
+  }
+}
+.proconex-pencil {
+  &:before {
+    content: $proconex-pencil; 
+  }
+}
+.proconex-connection {
+  &:before {
+    content: $proconex-connection; 
+  }
+}
+.proconex-mic {
+  &:before {
+    content: $proconex-mic; 
+  }
+}
+.proconex-qrcode {
+  &:before {
+    content: $proconex-qrcode; 
+  }
+}
+.proconex-cart {
+  &:before {
+    content: $proconex-cart; 
+  }
+}
+.proconex-coin-dollar {
+  &:before {
+    content: $proconex-coin-dollar; 
+  }
+}
+.proconex-phone {
+  &:before {
+    content: $proconex-phone; 
+  }
+}
+.proconex-phone-hang-up {
+  &:before {
+    content: $proconex-phone-hang-up; 
+  }
+}
+.proconex-envelop {
+  &:before {
+    content: $proconex-envelop; 
+  }
+}
+.proconex-location {
+  &:before {
+    content: $proconex-location; 
+  }
+}
+.proconex-location2 {
+  &:before {
+    content: $proconex-location2; 
+  }
+}
+.proconex-map {
+  &:before {
+    content: $proconex-map; 
+  }
+}
+.proconex-map2 {
+  &:before {
+    content: $proconex-map2; 
+  }
+}
+.proconex-printer {
+  &:before {
+    content: $proconex-printer; 
+  }
+}
+.proconex-mobile {
+  &:before {
+    content: $proconex-mobile; 
+  }
+}
+.proconex-tablet {
+  &:before {
+    content: $proconex-tablet; 
+  }
+}
+.proconex-tv {
+  &:before {
+    content: $proconex-tv; 
+  }
+}
+.proconex-download {
+  &:before {
+    content: $proconex-download; 
+  }
+}
+.proconex-upload {
+  &:before {
+    content: $proconex-upload; 
+  }
+}
+.proconex-redo2 {
+  &:before {
+    content: $proconex-redo2; 
+  }
+}
+.proconex-bubble {
+  &:before {
+    content: $proconex-bubble; 
+  }
+}
+.proconex-bubbles3 {
+  &:before {
+    content: $proconex-bubbles3; 
+  }
+}
+.proconex-user {
+  &:before {
+    content: $proconex-user; 
+  }
+}
+.proconex-user-tie {
+  &:before {
+    content: $proconex-user-tie; 
+  }
+}
+.proconex-spinner2 {
+  &:before {
+    content: $proconex-spinner2; 
+  }
+}
+.proconex-spinner4 {
+  &:before {
+    content: $proconex-spinner4; 
+  }
+}
+.proconex-spinner5 {
+  &:before {
+    content: $proconex-spinner5; 
+  }
+}
+.proconex-spinner9 {
+  &:before {
+    content: $proconex-spinner9; 
+  }
+}
+.proconex-search {
+  &:before {
+    content: $proconex-search; 
+  }
+}
+.proconex-zoom-in {
+  &:before {
+    content: $proconex-zoom-in; 
+  }
+}
+.proconex-zoom-out {
+  &:before {
+    content: $proconex-zoom-out; 
+  }
+}
+.proconex-enlarge {
+  &:before {
+    content: $proconex-enlarge; 
+  }
+}
+.proconex-shrink {
+  &:before {
+    content: $proconex-shrink; 
+  }
+}
+.proconex-enlarge2 {
+  &:before {
+    content: $proconex-enlarge2; 
+  }
+}
+.proconex-shrink2 {
+  &:before {
+    content: $proconex-shrink2; 
+  }
+}
+.proconex-lock {
+  &:before {
+    content: $proconex-lock; 
+  }
+}
+.proconex-unlocked {
+  &:before {
+    content: $proconex-unlocked; 
+  }
+}
+.proconex-cog {
+  &:before {
+    content: $proconex-cog; 
+  }
+}
+.proconex-pie-chart {
+  &:before {
+    content: $proconex-pie-chart; 
+  }
+}
+.proconex-stats-dots {
+  &:before {
+    content: $proconex-stats-dots; 
+  }
+}
+.proconex-stats-bars2 {
+  &:before {
+    content: $proconex-stats-bars2; 
+  }
+}
+.proconex-bin {
+  &:before {
+    content: $proconex-bin; 
+  }
+}
+.proconex-bin2 {
+  &:before {
+    content: $proconex-bin2; 
+  }
+}
+.proconex-power-cord {
+  &:before {
+    content: $proconex-power-cord; 
+  }
+}
+.proconex-download3 {
+  &:before {
+    content: $proconex-download3; 
+  }
+}
+.proconex-upload3 {
+  &:before {
+    content: $proconex-upload3; 
+  }
+}
+.proconex-sphere {
+  &:before {
+    content: $proconex-sphere; 
+  }
+}
+.proconex-earth {
+  &:before {
+    content: $proconex-earth; 
+  }
+}
+.proconex-link {
+  &:before {
+    content: $proconex-link; 
+  }
+}
+.proconex-attachment {
+  &:before {
+    content: $proconex-attachment; 
+  }
+}
+.proconex-eye {
+  &:before {
+    content: $proconex-eye; 
+  }
+}
+.proconex-eye-blocked {
+  &:before {
+    content: $proconex-eye-blocked; 
+  }
+}
+.proconex-heart {
+  &:before {
+    content: $proconex-heart; 
+  }
+}
+.proconex-warning {
+  &:before {
+    content: $proconex-warning; 
+  }
+}
+.proconex-plus {
+  &:before {
+    content: $proconex-plus; 
+  }
+}
+.proconex-minus {
+  &:before {
+    content: $proconex-minus; 
+  }
+}
+.proconex-cancel-circle {
+  &:before {
+    content: $proconex-cancel-circle; 
+  }
+}
+.proconex-blocked {
+  &:before {
+    content: $proconex-blocked; 
+  }
+}
+.proconex-cross {
+  &:before {
+    content: $proconex-cross; 
+  }
+}
+.proconex-checkmark {
+  &:before {
+    content: $proconex-checkmark; 
+  }
+}
+.proconex-play2 {
+  &:before {
+    content: $proconex-play2; 
+  }
+}
+.proconex-pause {
+  &:before {
+    content: $proconex-pause; 
+  }
+}
+.proconex-stop {
+  &:before {
+    content: $proconex-stop; 
+  }
+}
+.proconex-previous {
+  &:before {
+    content: $proconex-previous; 
+  }
+}
+.proconex-next {
+  &:before {
+    content: $proconex-next; 
+  }
+}
+.proconex-backward {
+  &:before {
+    content: $proconex-backward; 
+  }
+}
+.proconex-forward2 {
+  &:before {
+    content: $proconex-forward2; 
+  }
+}
+.proconex-play3 {
+  &:before {
+    content: $proconex-play3; 
+  }
+}
+.proconex-pause2 {
+  &:before {
+    content: $proconex-pause2; 
+  }
+}
+.proconex-stop2 {
+  &:before {
+    content: $proconex-stop2; 
+  }
+}
+.proconex-backward2 {
+  &:before {
+    content: $proconex-backward2; 
+  }
+}
+.proconex-forward3 {
+  &:before {
+    content: $proconex-forward3; 
+  }
+}
+.proconex-first {
+  &:before {
+    content: $proconex-first; 
+  }
+}
+.proconex-last {
+  &:before {
+    content: $proconex-last; 
+  }
+}
+.proconex-previous2 {
+  &:before {
+    content: $proconex-previous2; 
+  }
+}
+.proconex-next2 {
+  &:before {
+    content: $proconex-next2; 
+  }
+}
+.proconex-eject {
+  &:before {
+    content: $proconex-eject; 
+  }
+}
+.proconex-volume-high {
+  &:before {
+    content: $proconex-volume-high; 
+  }
+}
+.proconex-volume-medium {
+  &:before {
+    content: $proconex-volume-medium; 
+  }
+}
+.proconex-volume-mute2 {
+  &:before {
+    content: $proconex-volume-mute2; 
+  }
+}
+.proconex-loop2 {
+  &:before {
+    content: $proconex-loop2; 
+  }
+}
+.proconex-arrow-up {
+  &:before {
+    content: $proconex-arrow-up; 
+  }
+}
+.proconex-arrow-right {
+  &:before {
+    content: $proconex-arrow-right; 
+  }
+}
+.proconex-arrow-down {
+  &:before {
+    content: $proconex-arrow-down; 
+  }
+}
+.proconex-arrow-left {
+  &:before {
+    content: $proconex-arrow-left; 
+  }
+}
+.proconex-arrow-up2 {
+  &:before {
+    content: $proconex-arrow-up2; 
+  }
+}
+.proconex-arrow-right2 {
+  &:before {
+    content: $proconex-arrow-right2; 
+  }
+}
+.proconex-arrow-down2 {
+  &:before {
+    content: $proconex-arrow-down2; 
+  }
+}
+.proconex-arrow-left2 {
+  &:before {
+    content: $proconex-arrow-left2; 
+  }
+}
+.proconex-circle-up {
+  &:before {
+    content: $proconex-circle-up; 
+  }
+}
+.proconex-circle-right {
+  &:before {
+    content: $proconex-circle-right; 
+  }
+}
+.proconex-circle-down {
+  &:before {
+    content: $proconex-circle-down; 
+  }
+}
+.proconex-circle-left {
+  &:before {
+    content: $proconex-circle-left; 
+  }
+}
+.proconex-shift {
+  &:before {
+    content: $proconex-shift; 
+  }
+}
+.proconex-checkbox-checked {
+  &:before {
+    content: $proconex-checkbox-checked; 
+  }
+}
+.proconex-checkbox-unchecked {
+  &:before {
+    content: $proconex-checkbox-unchecked; 
+  }
+}
+.proconex-radio-checked2 {
+  &:before {
+    content: $proconex-radio-checked2; 
+  }
+}
+.proconex-radio-unchecked {
+  &:before {
+    content: $proconex-radio-unchecked; 
+  }
+}
+.proconex-crop {
+  &:before {
+    content: $proconex-crop; 
+  }
+}
+.proconex-share {
+  &:before {
+    content: $proconex-share; 
+  }
+}
+.proconex-mail2 {
+  &:before {
+    content: $proconex-mail2; 
+  }
+}
+.proconex-mail3 {
+  &:before {
+    content: $proconex-mail3; 
+  }
+}
+.proconex-facebook2 {
+  &:before {
+    content: $proconex-facebook2; 
+  }
+}
+.proconex-whatsapp {
+  &:before {
+    content: $proconex-whatsapp; 
+  }
+}
+.proconex-youtube {
+  &:before {
+    content: $proconex-youtube; 
+  }
+}
+.proconex-appleinc {
+  &:before {
+    content: $proconex-appleinc; 
+  }
+}
+.proconex-android {
+  &:before {
+    content: $proconex-android; 
+  }
+}
+.proconex-windows8 {
+  &:before {
+    content: $proconex-windows8; 
+  }
+}
+.proconex-skype {
+  &:before {
+    content: $proconex-skype; 
+  }
+}
+.proconex-reddit {
+  &:before {
+    content: $proconex-reddit; 
+  }
+}
+.proconex-linkedin {
+  &:before {
+    content: $proconex-linkedin; 
+  }
+}
+.proconex-pinterest {
+  &:before {
+    content: $proconex-pinterest; 
+  }
+}
+.proconex-file-pdf {
+  &:before {
+    content: $proconex-file-pdf; 
+  }
+}
+.proconex-file-openoffice {
+  &:before {
+    content: $proconex-file-openoffice; 
+  }
+}
+.proconex-file-word {
+  &:before {
+    content: $proconex-file-word; 
+  }
+}
+

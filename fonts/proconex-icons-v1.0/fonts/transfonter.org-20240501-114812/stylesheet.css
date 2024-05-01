@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'proconex-icons';
+    src: url('proconex-icons.woff2') format('woff2'),
+        url('proconex-icons.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
